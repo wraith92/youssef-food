@@ -10,17 +10,17 @@ const DefaultHeader = ({ openSearchModal }) => {
           <div className="row">
             <div className="col-lg-7">
               <div className="top-left">
-                <span className="text">
-                  Free delivery for all orders over $50. Order your food now!
-                </span>
+              <span className="text">
+                Devis gratuit, réservez maintenant
+              </span>
               </div>
             </div>
             <div className="col-lg-5">
               <div className="top-right d-flex align-items-center justify-content-lg-end">
-                <span className="text">
-                  <i className="far fa-envelope" />
-                  Subscribe &amp; Get 10% Off
-                </span>
+              <span className="text">
+                <i className="far fa-envelope" />
+                Réservez la deuxième course &amp; Obtenez 15% de réduction
+              </span>
                 <ul className="social-link">
                   <li>
                     <a href="#">
@@ -99,13 +99,13 @@ const DefaultHeader = ({ openSearchModal }) => {
                 <div className="nav-call-button">
                   <span>
                     <img src="assets/images/call.png" alt="icon" />
-                    <a href="tel:000(123)45689">000 (123) 456 89</a>
+                    <a href="tel:0753344306">07 53 34 43 06</a>
                   </span>
                 </div>
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn btn-red">
-                      Book a Table
+                    Réserver maintenant 
                       <i className="fas fa-long-arrow-right" />
                     </a>
                   </Link>

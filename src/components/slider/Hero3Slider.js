@@ -27,7 +27,7 @@ export default class Hero3Slider extends Component {
             <div className="container-fluid">
               <div className="hero-content text-white">
                 <h1 data-animation="fadeInUp" data-delay=".5s">
-                  Lobster Claws
+                  DHM Drivers
                 </h1>
                 <div
                   className="hero-button"
@@ -36,7 +36,7 @@ export default class Hero3Slider extends Component {
                 >
                   <Link legacyBehavior href="/menu-seafood">
                     <a className="main-btn btn-red">
-                      order now
+                    Réserver maintenant
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -49,7 +49,7 @@ export default class Hero3Slider extends Component {
               >
                 <div className="image-overlay" />
                 <img
-                  src="assets/images/hero/hero-slider-1.jpg"
+                  src="assets/images/hero/design.png"
                   alt="hero image"
                 />
               </div>
@@ -59,7 +59,7 @@ export default class Hero3Slider extends Component {
             <div className="container-fluid">
               <div className="hero-content text-white">
                 <h1 data-animation="fadeInUp" data-delay=".5s">
-                  Lobster Reef
+                Conducteur Expert
                 </h1>
                 <div
                   className="hero-button"
@@ -68,7 +68,7 @@ export default class Hero3Slider extends Component {
                 >
                   <Link legacyBehavior href="/menu-seafood">
                     <a className="main-btn btn-red">
-                      order now
+                    Réserver maintenant
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -81,7 +81,7 @@ export default class Hero3Slider extends Component {
               >
                 <div className="image-overlay" />
                 <img
-                  src="assets/images/hero/hero-slider-2.jpg"
+                  src="assets/images/hero/design.png"
                   alt="hero image"
                 />
               </div>
@@ -89,9 +89,9 @@ export default class Hero3Slider extends Component {
           </div>
           <div className="single-slider">
             <div className="container-fluid">
-              <div className="hero-content text-white">
+              <div className="hero-content text-white"  >
                 <h1 data-animation="fadeInUp" data-delay=".5s">
-                  Lobster Furry
+                  Route Confort
                 </h1>
                 <div
                   className="hero-button"
@@ -100,7 +100,7 @@ export default class Hero3Slider extends Component {
                 >
                   <Link legacyBehavior href="/menu-seafood">
                     <a className="main-btn btn-red">
-                      order now
+                    Réserver maintenant
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -113,7 +113,7 @@ export default class Hero3Slider extends Component {
               >
                 <div className="image-overlay" />
                 <img
-                  src="assets/images/hero/hero-slider-3.jpg"
+                  src="assets/images/hero/design.png"
                   alt="hero image"
                 />
               </div>

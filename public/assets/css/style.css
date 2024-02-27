@@ -40,6 +40,8 @@
 =======================----*/
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@400;500;600;700&display=swap");
+/* Material Icons */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /* Base CSS */
 html {
   font-size: 100%;
@@ -322,7 +324,7 @@ textarea.form_control {
 }
 
 .copyright-area .copyright-nav ul li a:hover, .contact-info-widget .contact-info-box > p:hover a, .contact-info-widget .contact-info-box h3:hover, .footer-nav-content ul.footer-nav li a:hover, .sidebar-widget-area .recent-post-widget .recent-post-list .post-thumbnail-content .post-title-date span.posted-on:hover, .sidebar-widget-area .category-widget .category-nav li a:hover, .blog-details-wrapper .blog-post .entry-footer .tag-links a:hover, .blog-quote-item .entry-content h3.title:hover, .blog-item-two .entry-content h3.title:hover, .blog-item-one .entry-content h3.title:hover, .products-sidebar-area .product-category-widget .category-nav li a:hover, .single-menu-item-three .text h3.item-title-price:hover, .single-menu-item-two .text h3.item-title-price:hover, .single-menu-item .text h3.item-title-price:hover, .navigation-white.header-navigation .nav-right-item .nav-call-button span a:hover, .header-navigation .nav-right-item .nav-call-button span a:hover, .top-bar.text-white .top-right ul.social-link li a:hover, .top-bar .top-right ul.social-link li a:hover {
-  color: #DF3F00;
+  color: #3b1e8d;
 }
 
 .p-r {
@@ -426,11 +428,11 @@ ul.ratings li i {
 }
 
 .dark-red-bg {
-  background-color: #DF3F00;
+  background-color: #364d9f;
 }
 
 .light-red-bg {
-  background-color: rgba(223, 63, 0, 0.07);
+  background-color: rgba(0, 160, 223, 0.07);
 }
 
 .light-gray-bg {
@@ -467,10 +469,10 @@ button {
           margin-inline-start: 10px;
 }
 .main-btn.btn-red {
-  background-color: #DF3F00;
+  background-color: #0e579f;
 }
 .main-btn.btn-red:hover {
-  background-color: #0E1317;
+  background-color: #26ab56;
   color: #fff;
 }
 .main-btn.btn-black {
@@ -938,7 +940,7 @@ button {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(223, 63, 0, 0.9);
+  background-color: rgba(0, 89, 223, 0.9);
   z-index: -1;
 }
 
@@ -1458,7 +1460,7 @@ button {
   padding: 20px 0;
 }
 .navigation-two .primary-menu .site-branding .brand-logo {
-  background-color: #DF3F00;
+  background-color: #df3f0000;
   padding: 20px 35px;
 }
 @media (max-width: 767px) {
@@ -1713,7 +1715,7 @@ button {
   z-index: 1;
 }
 .banner-three .hero-content h1 {
-  font-size: 200px;
+  font-size: 130px;
   line-height: 1;
   margin-bottom: 30px;
 }
@@ -1764,7 +1766,7 @@ button {
   transition: all 0.3s ease-out 0s;
 }
 .hero-arrows .slick-arrow.next, .hero-arrows .slick-arrow:hover {
-  background-color: #DF3F00;
+  background-color: #1c66a2;
   color: #fff;
 }
 

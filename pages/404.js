@@ -2,26 +2,19 @@ import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Partners from "../src/components/Partners";
 import Layout from "../src/layout/Layout";
+
 const E404 = () => {
   return (
     <Layout>
-      <PageBanner pageName={"404 Pages"} title="404 Pages" />{" "}
+      <PageBanner pageName={"Pages 404"} title="Page 404" />{" "}
       <section className="error-page-area pt-130 pb-130 p-r z-1">
         <div className="object object-one">
-          <span>
-            <img src="assets/images/shape/element-2.png" alt="" />
-          </span>
+          
         </div>
         <div className="object object-two">
-          <span>
-            <img src="assets/images/shape/element-3.png" alt="" />
-          </span>
+          
         </div>
-        <div className="object object-three">
-          <span>
-            <img src="assets/images/shape/element-4.png" alt="" />
-          </span>
-        </div>
+       
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
@@ -29,18 +22,15 @@ const E404 = () => {
                 <img
                   src="assets/images/gallery/404.png"
                   className="mb-110"
-                  alt="404 Image"
+                  alt="Image 404"
                 />
-                <h2>OPPS! This Page are Can’t Be Found</h2>
+                <h2>Oops ! Cette page est introuvable</h2>
                 <p>
-                  Sit amet consectetur adipiscing elit. Et id purus sem morbi.
-                  Integer a sollicitudin ac eget sed consectetur et nam.
-                  Elementum eu egestas faucibus bibendum aliquetesy ullamcorper
-                  quis aliquet lorem. Mor phasellus dictum tellus
+                  Désolé, cette page semble introuvable. Nous vous invitons à revenir à notre page d'accueil pour trouver ce que vous cherchez.
                 </p>
                 <Link legacyBehavior href="/">
                   <a className="main-btn btn-red">
-                    go to home
+                    Retourner à la page d'accueil
                     <i className="far fa-arrow-right" />
                   </a>
                 </Link>
@@ -53,4 +43,5 @@ const E404 = () => {
     </Layout>
   );
 };
+
 export default E404;

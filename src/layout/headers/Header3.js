@@ -33,13 +33,13 @@ const Header3 = () => {
                 <div className="nav-call-button">
                   <span>
                     <img src="assets/images/call.png" alt="icon" />
-                    <a href="tel:000(123)45689">000 (123) 456 89</a>
+                    <a href="tel:07 53 34 43 06">07 53 34 43 06</a>
                   </span>
                 </div>
                 <div className="menu-button d-xl-block d-none">
-                  <Link legacyBehavior href="/contact">
+                  <Link legacyBehavior href="/resevations">
                     <a className="main-btn btn-red">
-                      Book a Table
+                      Contactez-nous
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>

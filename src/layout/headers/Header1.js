@@ -17,10 +17,10 @@ const Header1 = ({ openSearchModal }) => {
             </div>
             <div className="col-lg-5">
               <div className="top-right d-flex align-items-center justify-content-lg-end">
-                <span className="text">
-                  <i className="far fa-envelope" />
-                  Subscribe &amp; Get 10% Off
-                </span>
+              <span className="text">
+  <i className="far fa-envelope" />
+  Réservez la deuxième course &amp; Obtenez 15% de réduction
+</span>
                 <ul className="social-link">
                   <li>
                     <a href="#">
