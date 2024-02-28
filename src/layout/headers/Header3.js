@@ -37,9 +37,9 @@ const Header3 = () => {
                   </span>
                 </div>
                 <div className="menu-button d-xl-block d-none">
-                  <Link legacyBehavior href="/resevations">
+                  <Link legacyBehavior href="/reservations">
                     <a className="main-btn btn-red">
-                      Contactez-nous
+                      Réserver maintenant 
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
