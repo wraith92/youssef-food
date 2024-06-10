@@ -80,12 +80,8 @@ const ReservationsFrom = ({ btnLeft }) => {
             phone: "",
             date: today,
             time: "",
-<<<<<<< HEAD
             arrive: "",
             depart: ""
-=======
-            message: "",
->>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
           });
         } else {
           alert("Failed to send email");
