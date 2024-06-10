@@ -745,7 +745,11 @@ button {
 .preloader .pre-box {
   width: 50px;
   height: 50px;
+<<<<<<< HEAD
   background: #00abdf;
+=======
+  background: #DF3F00;
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
   -webkit-animation: loaderAnimate 0.5s linear infinite;
   animation: loaderAnimate 0.5s linear infinite;
   position: absolute;
@@ -824,7 +828,11 @@ button {
 }
 /*====== Start Back to top css ======*/
 .back-to-top {
+<<<<<<< HEAD
   background: #008adf;
+=======
+  background: #DF3F00;
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
   border-radius: 50%;
   bottom: 30px;
   color: #fff;

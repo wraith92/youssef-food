@@ -11,11 +11,17 @@ const ReservationsFrom = ({ btnLeft }) => {
     phone: "",
     date: today,
     time: "",
+<<<<<<< HEAD
     depart: "",
     arrive: "",
   });
 
   const { person, phone, date, time, depart,arrive } = formData;
+=======
+    message: "",
+  });
+  const { person, phone, date, time, message } = formData;
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
 
   // Date Picker
   const [visible, setVisible] = useState(false);
@@ -33,8 +39,12 @@ const ReservationsFrom = ({ btnLeft }) => {
     if (
       person.length === 0 ||
       phone.length === 0 ||
+<<<<<<< HEAD
       depart.length === 0 ||
       arrive.length === 0 ||
+=======
+      message.length === 0 ||
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
       time.length === 0
     ) {
       setError(true);
@@ -46,8 +56,12 @@ const ReservationsFrom = ({ btnLeft }) => {
         phone,
         date: date.toISOString(), // Convertir en format ISO pour l'envoi
         time,
+<<<<<<< HEAD
         arrive,
         depart
+=======
+        message,
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
       };
 
       try {
@@ -66,8 +80,12 @@ const ReservationsFrom = ({ btnLeft }) => {
             phone: "",
             date: today,
             time: "",
+<<<<<<< HEAD
             arrive: "",
             depart: ""
+=======
+            message: "",
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
           });
         } else {
           alert("Failed to send email");
@@ -83,6 +101,7 @@ const ReservationsFrom = ({ btnLeft }) => {
       setError(null);
     }, 2000);
   };
+<<<<<<< HEAD
 
   const generateTimeOptions = () => {
     const options = [];
@@ -95,6 +114,8 @@ const ReservationsFrom = ({ btnLeft }) => {
     }
     return options;
   };
+=======
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
   return (
     <form onSubmit={(e) => onSubmit(e)} className="reservation-form">
       <div className="row justify-content-center">
@@ -168,6 +189,7 @@ const ReservationsFrom = ({ btnLeft }) => {
               <i className="far fa-clock"></i>
             </label>
             <select
+<<<<<<< HEAD
       className={`form_control ${error ? (!time ? "invalid" : "") : ""}`}
       id="select"
       name="time"
@@ -177,6 +199,45 @@ const ReservationsFrom = ({ btnLeft }) => {
       <option data-display="Reservation Time">Reservation Time</option>
       {generateTimeOptions()}
     </select>
+=======
+              className={`form_control ${error ? (!time ? "invalid" : "") : ""
+                }`}
+              id="select"
+              name="time"
+              onChange={(e) => onChange(e)}
+              value={time}
+            >
+              <option data-display="Reservation Time">Reservation Time</option>
+              <option value="1">09h00</option>
+              <option value="2">09h30</option>
+              <option value="3">10h00</option>
+              <option value="4">10h30</option>
+              <option value="5">11h00</option>
+              <option value="6">11h30</option>
+              <option value="7">12h00</option>
+              <option value="8">12h30</option>
+              <option value="9">13h00</option>
+              <option value="10">13h30</option>
+              <option value="11">14h00</option>
+              <option value="12">14h30</option>
+              <option value="13">15h00</option>
+              <option value="14">15h30</option>
+              <option value="15">16h00</option>
+              <option value="16">16h30</option>
+              <option value="17">17h00</option>
+              <option value="18">17h30</option>
+              <option value="19">18h00</option>
+              <option value="20">18h30</option>
+              <option value="21">19h00</option>
+              <option value="22">19h30</option>
+              <option value="23">20h00</option>
+              <option value="24">20h30</option>
+              <option value="25">21h00</option>
+              <option value="26">21h30</option>
+              <option value="27">22h00</option>
+
+            </select>
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
           </div>
         </div>
         <div className="col-lg-12">
@@ -185,6 +246,7 @@ const ReservationsFrom = ({ btnLeft }) => {
               <i className="far fa-edit" />
             </label>
             <textarea
+<<<<<<< HEAD
               className={`form_control ${error ? (!depart ? "invalid" : "") : ""
                 }`}
               placeholder="Adresse de départ"
@@ -207,6 +269,14 @@ const ReservationsFrom = ({ btnLeft }) => {
               name="arrive"
               onChange={(e) => onChange(e)}
               value={arrive}
+=======
+              className={`form_control ${error ? (!message ? "invalid" : "") : ""
+                }`}
+              placeholder="Adresse de départ"
+              name="message"
+              onChange={(e) => onChange(e)}
+              value={message}
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
               defaultValue={""}
             />
           </div>

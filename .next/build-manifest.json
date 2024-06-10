@@ -15,6 +15,14 @@
   ],
   "rootMainFiles": [],
   "pages": {
+<<<<<<< HEAD
+=======
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
     "/404": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -1,6 +1,15 @@
 {
+<<<<<<< HEAD
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
   "/reservations": "pages/reservations.js"
+=======
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/reservations": "pages/reservations.js",
+  "/": "pages/index.js",
+  "/404": "pages/404.js"
+>>>>>>> 30add5abec67dab13607f217d3665a61fa94703c
 }
